@@ -29,3 +29,6 @@ spec:
         backupSchedule: "* * * * *"
         EXTRA_TEXT: dev
         enableArgoCDHooks: true
+        backendReplicas: 1
+        frontendReplicas: 1
+        goFrontendReplicas: 1
