@@ -31,3 +31,6 @@ spec:
         backendReplicas: 6
         frontendReplicas: 6
         goFrontendReplicas: 6
+        backendImage:    harbor.apps.training.germanywestcentral.aroapp.io/dhl/backend
+        frontendImage:   harbor.apps.training.germanywestcentral.aroapp.io/dhl/frontend-js
+        goFrontendImage: harbor.apps.training.germanywestcentral.aroapp.io/dhl/frontend
